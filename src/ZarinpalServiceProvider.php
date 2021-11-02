@@ -14,7 +14,7 @@ class ZarinpalServiceProvider extends ServiceProvider
         $this->app->bind('zarinpal' , function (){
             return new Zarinpal;
         });
-        $this->mergeConfigFrom(__DIR__ . '\config.php' , 'zarinpal');
+        $this->mergeConfigFrom(__DIR__ . '/config.php' , 'zarinpal');
     }
     public function boot(){
         $this->publishes([

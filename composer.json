@@ -3,9 +3,9 @@
     "description": "this package use for send and validate zarinpal gateway transaction",
     "type": "library",
     "require": {
-        "php": "^7.3|^8.0",
-        "illuminate/config": "^8.0",
-        "illuminate/support": "^8.0",
+        "php": "^8.0",
+        "illuminate/config": "^9.0",
+        "illuminate/support": "^9.0",
         "ext-soap": "*"
     },
     "autoload": {
